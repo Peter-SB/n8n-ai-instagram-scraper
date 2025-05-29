@@ -1,6 +1,6 @@
 <p align="center" style="margin: 10px;">
     <img src="docs/n8n.webp" alt="n8n Logo" width="20%" style="padding:8px;">
-    <img src="docs/Instagram_logo_2016.svg.webp" alt="Instagram Logo" width="20%" style="padding:8px;">
+    <img src="docs/Instagram.webp" alt="Instagram Logo" width="20%" style="padding:8px;">
 </p>
 
 
