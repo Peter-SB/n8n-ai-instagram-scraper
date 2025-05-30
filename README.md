@@ -1,14 +1,20 @@
-<p align="center" style="margin: 10px;">
-    <img src="docs/n8n.webp" alt="n8n Logo" width="20%" style="padding:8px;">
-    <img src="docs/Instagram.webp" alt="Instagram Logo" width="20%" style="padding:8px;">
-</p>
 
+<p align="center" style="margin: 10px;">
+    <img src="docs/n8n.webp" alt="n8n Logo" width="20%" style="margin-right:12px;">
+    <img src="docs/Instagram.webp" alt="Instagram Logo" width="20%" style="margin-left:12px;">
+</p>
+<div align="center">
 
 # Agentic AI Instagram Scraper
 
-Self hosted AI workflow for scraping instagram reels (audio and description), extracting, summaries, and categories, then stored for quick viewing later.
+<strong>
+Self hosted AI workflow for scraping Instagram Reels (audio and description). Extracting, summarising and categorising, then storing all relevant info for quick viewing later.
+</strong>
+</div>
+<br>
 
-While planning an upcoming trip to Bali, I found myself endlessly watching Reels with recommendations: Where to eat, where to stay, travel tips, safety advice, but I was never revisiting them. So I decided to see if I could try build a self-hosted, agentic AI pipeline to organize that information automatically! Here’s how it works:
+
+While planning an upcoming trip, I found myself endlessly watching Reels with recommendations: Where to eat, where to stay, travel tips, safety advice, but I was never revisiting them. So I decided to see if I could try build a self-hosted, agentic AI pipeline to organize that information automatically! Here’s how it works:
 
 - Submit Reels to scrape as a link via Google Form.
 - Scrape the description and transcribe the audio.
