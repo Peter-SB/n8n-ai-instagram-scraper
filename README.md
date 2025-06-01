@@ -24,6 +24,29 @@ While planning an upcoming trip, I found myself endlessly watching Reels with re
 <br>
 <p align="center"><img src="docs/demo%20full.gif" alt="Reel URL Form" width="90%"></p>
 
+## Contents
+
+- [Agentic AI Instagram Scraper](#agentic-ai-instagram-scraper)
+   * [Contents](#contents)
+   * [Technologies:](#technologies)
+   * [Workflow Walk-through](#workflow-walk-through)
+      + [1. Submit Reel URL  ](#1-submit-reel-url)
+      + [2. Scrape Reel  ](#2-scrape-reel)
+      + [3. Optionally Transcribe Audio  ](#3-optionally-transcribe-audio)
+      + [4. AI Information Extraction  ](#4-ai-information-extraction)
+      + [5. Save to Google Sheets  ](#5-save-to-google-sheets)
+   * [Results](#results)
+   * [Challenges](#challenges)
+      + [Self-Hosting](#self-hosting)
+      + [AI Limitations: ](#ai-limitations)
+      + [Output Is Only As Good As Your Data](#output-is-only-as-good-as-your-data)
+   * [Thoughts On n8n](#thoughts-on-n8n)
+   * [Business Cases](#business-cases)
+      + [Digital Reasearch Aid](#digital-reasearch-aid)
+      + [Sentiment Trend Analysis](#sentiment-trend-analysis)
+      + [Risk Detection & cyber intelengence](#risk-detection-cyber-intelengence)
+      + [Monitoring small business](#monitoring-small-business)
+
 ## Technologies:
 
 The workflow was built with a tool called n8n, a low code/no code agentic workflow builder. It allows simple workflow building via a intuitive flow diagram based system of nodes. I had been wanting to try this tool out for a while and was looking for an opportunity to apply it.  I combined this with a python library called Instaloader to scrape the reel video and description while the video was transcription was done with OpenAI’s Whisper python library.
@@ -140,3 +163,19 @@ Once I paid closer attention picking reels to scraper, it did highlight how many
 - Large workflows quickly become cumbersome.
 
 The primary goal of this project was to experiment with n8n and have a go with this fun visual tool. While I enjoyed building with it I admit I am not the target audience for this low code/no code tool and likely came into it with the mindset of a programmer. Im now looking further into other code solutions such as Langcain and Langgraph with future projects in mind.
+
+## Business Cases
+
+By extending and scaling this tool beyond just holiday research you open the possibility to deliver value in a number of markets, from marketing teams to research departments to cyber intelligence units, this tool can streamline workflows saving time and money, especially in smaller ventures where both are limited.
+
+### Digital Reasearch Aid
+Marketing research is big business and this automated tool can feed in reels on politics, tech, market trends, or academic topics and instantly get a structured breakdown of everything in one place. Instead of manually going through countless short videos, you’d have a centralised database with categorised recommendations, quotes, sources, and summaries. By prompt engineering and even fine-tuning models a lot of customisability is achievable. 
+
+### Sentiment Trend Analysis
+By including user comments and engagement metrics, you can layer in sentiment analysis and keyword tracking on top of the basic scrape. Marketing teams can see what people are saying in real time about a product launch, a brand repositioning, or a digital campaign. With Instaloader you could even include competitor profiles, monitoring fr spikes in either positive or negative sentiment so your team is always a step ahead.
+
+### Risk Detection & cyber intelengence
+Threat intelligence is a booming market and having eye on the web for protecting both brand and personal is not possible at scale with human teams. While there will always will be a place for human intelligence, leveraging tools like this with ai integration can scan for real time intelligence and at a fraction of the cost.
+
+### Monitoring small business
+For small businesses this tool allows a cheap way to keep an eye on their digital footprint. Instead of hiring an agency they can automatically see what customers are saying, see and address recurring complaints, and even consider ai engagement with followers. 
