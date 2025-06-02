@@ -44,8 +44,8 @@ While planning an upcoming trip, I found myself endlessly watching Reels with re
    * [Business Cases](#business-cases)
       + [Digital Reasearch Aid](#digital-reasearch-aid)
       + [Sentiment Trend Analysis](#sentiment-trend-analysis)
-      + [Risk Detection & cyber intelengence](#risk-detection-cyber-intelengence)
-      + [Monitoring small business](#monitoring-small-business)
+      + [Risk Detection & Cyber Intelengence](#risk-detection-cyber-intelengence)
+      + [Monitoring Small Business](#monitoring-small-business)
 
 ## Technologies:
 
@@ -174,8 +174,8 @@ Marketing research is big business and this automated tool can feed in reels on 
 ### Sentiment Trend Analysis
 By including user comments and engagement metrics, you can layer in sentiment analysis and keyword tracking on top of the basic scrape. Marketing teams can see what people are saying in real time about a product launch, a brand repositioning, or a digital campaign. With Instaloader you could even include competitor profiles, monitoring fr spikes in either positive or negative sentiment so your team is always a step ahead.
 
-### Risk Detection & cyber intelengence
+### Risk Detection & Cyber Intelengence
 Threat intelligence is a booming market and having eye on the web for protecting both brand and personal is not possible at scale with human teams. While there will always will be a place for human intelligence, leveraging tools like this with ai integration can scan for real time intelligence and at a fraction of the cost.
 
-### Monitoring small business
+### Monitoring Small Business
 For small businesses this tool allows a cheap way to keep an eye on their digital footprint. Instead of hiring an agency they can automatically see what customers are saying, see and address recurring complaints, and even consider ai engagement with followers. 
