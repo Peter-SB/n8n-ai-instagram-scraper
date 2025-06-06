@@ -14,7 +14,7 @@ Self hosted AI workflow for scraping Instagram Reels (audio and description). Ex
 <br>
 
 
-While planning an upcoming trip, I found myself endlessly watching Reels with recommendations: Where to eat, where to stay, travel tips, safety advice, but I was never revisiting them. So I decided to see if I could try build a self-hosted, agentic AI pipeline to organise that information automatically! Here’s how it works:
+While planning an upcoming trip, I found myself endlessly watching Reels with recommendations. Where to eat, where to stay, travel tips, safety advice, but I was never revisiting them. So I decided to see if I could try build a self-hosted, agentic AI pipeline to organise that information automatically! Here’s how it works:
 
 - Submit Reels to scrape as a link via Google Form.
 - Scrape the description and transcribe the audio.
