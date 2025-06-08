@@ -163,10 +163,10 @@ The primary goal of this project was to experiment with n8n and have a go with t
 
 ## Business Cases
 
-By extending and scaling this tool beyond just holiday research you open the possibility to deliver value in a number of markets, from marketing teams to research departments to cyber intelligence units, this tool can streamline workflows saving time and money, especially in smaller ventures where both are limited.
+By extending and scaling this tool beyond just holiday research you open the possibility to deliver value in a number of markets. From marketing teams, to research departments, to cyber intelligence units, this tool can streamline workflows saving time and money. This is especially valuable for smaller ventures where both are limited.
 
 ### Digital Reasearch Aid
-Marketing research is big business and this automated tool can feed in reels on politics, tech, market trends, or even academic topics and instantly get a structured breakdown of everything in one place. Instead of manually going through countless short videos, you'd have a centralised database with categorised recommendations, quotes, sources, and summaries. By prompt engineering and even fine-tuning models a lot of customisability is achievable.
+Marketing research is big business and this automated tool could feed in reels on politics, tech, market trends, or even academic topics and instantly get a structured breakdown of everything in one place. Instead of manually going through countless short videos, you'd have a centralised database with categorised recommendations, quotes, sources, and summaries. By prompt engineering and even fine-tuning models a lot of customisability is achievable.
 
 ### Sentiment Trend Analysis
 By including user comments and engagement metrics, you can layer in sentiment analysis and keyword tracking on top of the basic scrape. Marketing teams can see what people are saying in real time about a product launch, a brand repositioning, or a digital campaign. With Instaloader you could even include competitor profiles, monitoring for spikes in either positive or negative sentiment so your team is always a step ahead.
