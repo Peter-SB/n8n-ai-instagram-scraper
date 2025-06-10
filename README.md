@@ -71,7 +71,7 @@ A Google Form collects new Reel links, feeding into a “Form Responses” sheet
 Next Instaloader downloads the video and description saving the video locally for later transcription. This service was containerised and served with Flask for modularity and reusability. 
 
 ### 3. Optionally Transcribe Audio  
-If the user selected to “Scrape Audio?” in the form we transcribe the audio of the downloaded video. A library called fast-whisper based on OpenAIs Whisper was used, and I'm impressed with its speed an accuracy on my home server's cpu.
+If the user selected to “Scrape Audio?” in the form we transcribe the audio of the downloaded video. A library called fast-whisper based on OpenAIs Whisper was used, and I'm impressed with its speed and accuracy on my home server's cpu.
 
 <p align="center"><img src="docs/Transcript Node UI.png" alt="Whisper Node" width="70%"></p>
 
@@ -118,11 +118,11 @@ Lastly n8n loops over each extracted JSON item and, via a Switch node, routes it
 ## Results
 
 
-Overall im quite impressed with the results. These are some of the the results from about 20 scrape reels totalling about 2p in cost. I am impressed with the amount of information extracted for each reel and the LLM was good at adding context from the rest of the reel. The outcome is only as good as the video it comes from but the AI was generally very good at separating and summarising the info. It struggled a bit sometimes with categorising, e.g food and drink hygiene tips being put in Food & Drink category which is more for actual locations to eat. However, I didn't spend long on prompt engineering and im sure I could have achieved better results here with some more experimentation here.
+Overall im quite impressed with the results. These are some of the results from about 20 scrape reels totalling about 2p in cost. I am impressed with the amount of information extracted for each reel, and the LLM was good at adding context from the rest of the reel. The outcome is only as good as the video it comes from but the AI was generally very good at separating and summarising the info. It struggled a bit sometimes with categorising, e.g food and drink hygiene tips being put in Food & Drink category which is more for actual locations to eat. However, I didn't spend long on prompt engineering and I'm sure I could have achieved better results here with some more experimentation here.
 
 <p align="center"><img src="docs/Scraped Activites & Atttractions.png" alt="AI Output Node" width="70%"></p>
 
-From the screenshots you can see some examples of poor quality data. Row 6 in the Scraped Info & Other, for example, seems to be a phone number advert. And some of the entries above aren't very descriptive in location or notes.  However building up this database of info has allow me to see what trends pops up often, which could be especially good for seeing popularity of place recommendations. Ultimately this data will be most useful put back into a more powerful LLM, such as GPT4o, to clean-up and further summaries. 
+From the screenshots you can see some examples of poor quality data. Row 6 in the Scraped Info & Other, for example, seems to be a phone number advert. And some of the entries above aren't very descriptive in location or notes.  However building up this database of info has allow me to see what trends pop up often, which could be especially useful for seeing popularity of place recommendations. Ultimately this data will be most useful put back into a more powerful LLM, such as GPT4o, to clean-up and further summaries. 
 
 ### Self-hosted VS Cloud LLMs
 
@@ -130,7 +130,7 @@ I tried a variety of models, both self-hosted and through APIs. I found ChatGPT-
 
 ## Challenges
 
-Every project comes with its own hurdles, that's where the learning happens. While this went relatively smoothly, these were some of the challenge I faced:
+Every project comes with its own hurdles, that's where the learning happens. While this went relatively smoothly, these were some of the challenges I faced:
 
 ### Self-Hosting
 Though n8n offers a cloud-hosted option, I opted for self-hosting primarily for three reasons:
@@ -171,7 +171,7 @@ Marketing research is big business and this automated tool could feed in reels o
 ### Sentiment Trend Analysis
 By including user comments and engagement metrics, you can layer in sentiment analysis and keyword tracking on top of the basic scrape. Marketing teams can see what people are saying in real time about a product launch, a brand repositioning, or a digital campaign. With Instaloader you could even include competitor profiles, monitoring for spikes in either positive or negative sentiment so your team is always a step ahead.
 
-### Risk Detection & Cyber Intelengence
+### Risk Detection & Cyber Intelligence
 Threat intelligence is a booming industry and having eye on the web for protecting both brand and personal is not possible at scale with human teams. While there will always will be a place for human intelligence, leveraging tools like this with ai integration can scan for real time intelligence and at a fraction of the cost.
 
 ### Monitoring Small Business
