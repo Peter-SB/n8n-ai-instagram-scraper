@@ -34,7 +34,7 @@ While planning an upcoming trip, I found myself endlessly watching Reels for rec
       + [2. Scrape Reel  ](#2-scrape-reel)
       + [3. Optionally Transcribe Audio  ](#3-optionally-transcribe-audio)
       + [4. AI Information Extraction  ](#4-ai-information-extraction)
-      + [5. Save to Google Sheets  ](#5-save-to-google-sheets)
+      + [5. Save to Google Sheets  ](#5-save-to-google-sheets) 
    * [Results](#results)
    * [Challenges](#challenges)
       + [Self-Hosting](#self-hosting)
@@ -42,9 +42,9 @@ While planning an upcoming trip, I found myself endlessly watching Reels for rec
       + [Output Is Only As Good As Your Data](#output-is-only-as-good-as-your-data)
    * [Thoughts On n8n](#thoughts-on-n8n)
    * [Business Cases](#business-cases)
-      + [Digital Reasearch Aid](#digital-reasearch-aid)
+      + [Digital Research Aid](#digital-research-aid)
       + [Sentiment Trend Analysis](#sentiment-trend-analysis)
-      + [Risk Detection & Cyber Intelengence](#risk-detection--cyber-intelengence)
+      + [Risk Detection & Cyber Intelligence](#risk-detection--cyber-intelligence)
       + [Monitoring Small Business](#monitoring-small-business)
 
 ## Technologies:
@@ -126,7 +126,7 @@ From the screenshots you can see some examples of poor quality data. Row 6 in th
 
 ### Self-hosted VS Cloud LLMs
 
-I tried a variety of models, both self-hosted and through APIs. I found ChatGPT-4.1-nano struggled with categorisation so switch to the mini model for a compromise of cost and accuracy. I tried self-hosted models such as TinyLLama which ran ok on my server's cpu but this wasn't very accurate. Llama 3.1 4B worked ok on my PC's gpu but was too slow on my servers cup. I overall found this model still struggled with classification as well sticking to the json schema.
+I tried a variety of models, both self-hosted and through APIs. I found ChatGPT-4.1-nano struggled with categorisation so switch to the mini model for a compromise of costs and accuracy. I tried self-hosted models such as TinyLLama which ran ok on my server's cpu but this wasn't very accurate. Llama 3.1 4B worked ok on my PC's gpu but was too slow on my servers cpu. I overall found this model still struggled with classification as well sticking to the json schema.
 
 ## Challenges
 
@@ -150,7 +150,7 @@ Once I paid closer attention picking reels to scraper, it did highlight how many
 ## Thoughts On n8n
 
 ### Pros:
-- Nice visual interface for quickly seeing and undersanding your workflows.
+- Nice visual interface for quickly seeing and understanding your workflows.
 - Helpful visual debugging tools made testing very easy.
 - Lots of prebuilt tools and integrations.
 
@@ -165,7 +165,7 @@ The primary goal of this project was to experiment with n8n and have a go with t
 
 By extending and scaling this tool beyond just holiday research you open the possibility to deliver value in a number of markets. From marketing teams, to research departments, to cyber intelligence units, this tool can streamline workflows saving time and money. This is especially valuable for smaller ventures where both are limited.
 
-### Digital Reasearch Aid
+### Digital Research Aid
 Marketing research is big business and this automated tool could feed in reels on politics, tech, market trends, or even academic topics and instantly get a structured breakdown of everything in one place. Instead of manually going through countless short videos, you'd have a centralised database with categorised recommendations, quotes, sources, and summaries. By prompt engineering and even fine-tuning models a lot of customisability is achievable.
 
 ### Sentiment Trend Analysis
